@@ -20,4 +20,14 @@ This helps track progress and build a solid foundation in:
 
 ---
 
+## Notes 
 
+FROM (collect all rows)
+WHERE (filter individual rows)
+GROUP BY (group rows into sets)
+HAVING (filter groups)
+SELECT (compute columns and aggregates)
+ORDER BY (sort results)
+
+LIMIT = how many rows you want
+OFFSET = how many rows you skip first
