@@ -37,16 +37,16 @@ Here’s your combined, clean, single-note summary of **SQL query flow + key con
 7. `LIMIT / OFFSET` → Control output (how many rows to show or skip)
 
 ---
-
 **Common SQL Concepts:**
 
-| Concept            | Used For              | Key Idea                               |
-| ------------------ | --------------------- | -------------------------------------- |
-| `CREATE FUNCTION`  | Define reusable logic | Wrap your SQL in a callable function   |
-| `DECLARE`          | Local variables       | Store values for intermediate steps    |
-| `SET`              | Assign variable       | Example: `M = N - 1`                   |
-| `IF ... THEN`      | Conditional logic     | Handle invalid or special cases        |
-| `DISTINCT`         | Remove duplicates     | Ensure uniqueness (e.g., salary ranks) |
-| `ORDER BY DESC`    | Sorting               | Rank from highest to lowest            |
-| `LIMIT 1 OFFSET M` | Select specific row   | Skip `M` rows, return the next one     |
-| `NULL`             | Missing data          | Returned when result doesn’t exist     |
+| Concept            | Used For              | Key Idea                                                                   |
+| ------------------ | --------------------- | -------------------------------------------------------------------------- |
+| `CREATE FUNCTION`  | Define reusable logic | Wrap your SQL in a callable function                                       |
+| `DECLARE`          | Local variables       | Store values for intermediate steps                                        |
+| `SET`              | Assign variable       | Example: `M = N - 1`                                                       |
+| `IF ... THEN`      | Conditional logic     | Handle invalid or special cases                                            |
+| `DISTINCT`         | Remove duplicates     | Ensure uniqueness (e.g., salary ranks)                                     |
+| `ORDER BY DESC`    | Sorting               | Rank from highest to lowest                                                |
+| `LIMIT 1 OFFSET M` | Select specific row   | Skip `M` rows, return the next one                                         |
+| `NULL`             | Missing data          | Returned when result doesn’t exist                                         |
+| `DATEDIFF`         | Compare two dates     | Returns **days between two dates**; useful for filters like “last 30 days” |
