@@ -1,0 +1,9 @@
+https://leetcode.com/problems/biggest-single-number/submissions/1891818789/?envType=problem-list-v2&envId=m8baczxh
+
+SELECT MAX(num) AS num
+FROM (
+    SELECT num
+    FROM MyNumbers
+    GROUP BY num
+    HAVING COUNT(*) = 1
+) t;
